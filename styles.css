@@ -68,6 +68,9 @@ body {
     grid-template-rows: repeat(8, 1fr);
     width: 50%;
   }
+  .time{
+    background-position: center;
+  }
 }
 
 @media (min-width: 901px) and (max-width: 1200px) {
@@ -75,12 +78,19 @@ body {
     grid-template-areas:
       "header student"
       "header student"
-      "main time"
-      "alumni time"
+      "time main"
+      "time alumni"
       "footer footer";
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     width: 80%;
+  }
+  .student{
+    background-position:center;
+  }
+
+  .time{
+    background-position:right;
   }
 }
 
